@@ -1,0 +1,2 @@
+url=max.ge/final/t3/30958274/index.php
+name=LashaBot
