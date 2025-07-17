@@ -13,6 +13,8 @@ This program processes two input lists:
 
 ### Steps:
 
+\
+
 1. For each number `n` in `list1`, the program calculates:  
    `list2.size - 1 - n`,  
    and gets the string from `list2` at that index.
