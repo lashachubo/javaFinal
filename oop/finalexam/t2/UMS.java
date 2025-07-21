@@ -28,7 +28,7 @@ public class UMS {
     }
 
     public Student getMyStudentData() {
-        Student lasha = new Student("Lasha Chubinidze");
+        Student lasha = new Student("Lasha Chubo");
 
         lasha.addCourse(new LearningCourse(
             "Computer Organization",
