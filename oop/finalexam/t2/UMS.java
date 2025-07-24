@@ -27,7 +27,32 @@ public class UMS {
         System.out.println();
     }
 
+    public Student getMyStudentData() {
+        Student lasha = new Student("Lasha Chubo");
 
+        lasha.addCourse(new LearningCourse(
+            "Computer Organization",
+            "Itroduction To Programming",
+            "Caching"
+        ));
+        lasha.addCourse(new LearningCourse(
+            "Algorithms and Data Structures",
+            "Introduction to C",
+            "Algorithms, Binary Trees"
+        ));
+        lasha.addCourse(new LearningCourse(
+            "Object Oriented Programming",
+            "None",
+            "Packages, Classes"
+        ));
+        lasha.addCourse(new LearningCourse(
+            "Computer and Society",
+            "None",
+            "AI Impact, Privacy"
+        ));
+
+        return lasha;
+    }
 
     public static void main(String[] args) {
         UMS ums = new UMS();
