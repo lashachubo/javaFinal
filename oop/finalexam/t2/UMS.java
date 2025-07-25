@@ -20,7 +20,7 @@ public class UMS {
 
     public void printStudentData(Student student) {
         System.out.println("Student Name: " + student.getName());
-        System.out.println("Learning Courses");
+        System.out.println("Learning Courses:");
         for (LearningCourse course : student.getLearningCourses()) {
             System.out.println(" - " + course);
         }
