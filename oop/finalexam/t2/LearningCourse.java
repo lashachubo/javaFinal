@@ -15,6 +15,10 @@ public class LearningCourse {
         return title;
     }
 
+    public String getAcceptancePrerequisites() {
+        return acceptancePrerequisites;
+    }
+
 
 
     public void setTitle(String title) {
