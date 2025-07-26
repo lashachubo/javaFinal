@@ -15,13 +15,7 @@ public class LearningCourse {
         return title;
     }
 
-    public String getAcceptancePrerequisites() {
-        return acceptancePrerequisites;
-    }
 
-    public String getMajorTopics() {
-        return majorTopics;
-    }
 
     public void setTitle(String title) {
         this.title = title;
