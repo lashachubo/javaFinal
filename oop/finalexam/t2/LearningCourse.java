@@ -19,7 +19,9 @@ public class LearningCourse {
         return acceptancePrerequisites;
     }
 
-
+    public String getMajorTopics() {
+        return majorTopics;
+    }
 
     public void setTitle(String title) {
         this.title = title;
