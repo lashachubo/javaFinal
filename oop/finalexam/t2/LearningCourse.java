@@ -37,5 +37,6 @@ public class LearningCourse {
 
     @Override
     public String toString() {
+        return "Course Title: " + title + ", Prerequisites: " + acceptancePrerequisites + ", Major Topics: " + majorTopics;
     }
 }
